@@ -8,6 +8,6 @@ router.post('/activation', userCtrl.activateEmail)
 
 router.post('/login', userCtrl.login)
 
-router.post('/refreshtoken', userCtrl.getAccessToken)
+router.post('/refresh_token', userCtrl.getAccessToken)
 
 module.exports = router
